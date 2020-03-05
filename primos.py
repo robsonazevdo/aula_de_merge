@@ -8,5 +8,9 @@ while True:
 
     while primos != num:
         if primos % num ==0:
-            
+            cont += 1
+        num += 1    
+
+    if cont == 2:
+        print(primos)        
 
